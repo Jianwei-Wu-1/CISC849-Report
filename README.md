@@ -6,6 +6,8 @@ This Page is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+[Image](https://jianwei-wu-1.github.io/CISC849_Report/front1.jpg)
+
 ```markdown
 Syntax highlighted code block
 
@@ -26,7 +28,6 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/front1.jpg)
 
 ### Jekyll Themes
 
