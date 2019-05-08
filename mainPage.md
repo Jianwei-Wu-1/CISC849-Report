@@ -1,17 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to Jianwei Wu and Vignesh Raghav's CISC849 Final Report
 
-This Page is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav 
+This Website is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-![alt text](https://jianwei-wu-1.github.io/CISC849_Report/front1.jpg)
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
+# Classification of Medical Images by Using Deep Learning Techniques
 ## Header 2
 ### Header 3
 
