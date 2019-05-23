@@ -75,6 +75,7 @@ Inspired by the middle result:
 * Our Neural Network:
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/new.png)
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/new1.png)
+(Jianwei Wu's Machine)
 
 ## Phrase one conclusion:
 Using “depthwise separable convolution” is more efficient than conventional VGGnet.
@@ -99,6 +100,7 @@ A little bit more computational time but still less than the conventional VGGnet
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/1.png)
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/2.png)
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/3.png)
+(Vignesh Raghav's machine)
 
 ## Analysis
  Precision - Proportion of Positive Identifications that are correct.
