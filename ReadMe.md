@@ -52,7 +52,18 @@ Tensorflow-Keras (2.2.4-tf), python 3.4.3, numpy, matplot
 Our goal is to show if a patient has symptom of breast cancer (benign or malignant)
 
 ## VGGnet
-[Link](url) and ![Image](https://jianwei-wu-1.github.io/CISC849_Report/p1.jpg)
+[Link](url) and ![Image](https://jianwei-wu-1.github.io/CISC849_Report/p1.png)
+
+* 21 layers
+* 2-3 convolutional layers are followed by a pooling layer
+* The end is fully-connected layers
+
+## Our Neural Network Structure 
+[Link](url) and ![Image](https://jianwei-wu-1.github.io/CISC849_Report/nn.png)
+
+* Our Structure is similar to the VGGnet*.
+* Instead of using sets of 3 conv layers like conventional VGG, we increase the number of layers for each time.
+* We also extend the idea of “depthwise separable convolutions*.
 
 
 
