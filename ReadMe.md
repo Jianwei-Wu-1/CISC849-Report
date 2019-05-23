@@ -84,5 +84,18 @@ Reduce likelihood of vanishing gradient(i.e. “dying ReLU”).
 Better fit to our dataset.
 A little bit more computational time but still less than the conventional VGGnet.
 
+## Phase 2 Malaria Disease Detection
+1. Used an architecture based on Alexnet with some modifications.
+2. Number of Layers in the Neural Network = 5
+3. Hardware Configuration = MacBook Pro(2014 Model) with macOS Mojave, 2.5 Ghz Intel Core i5 processor, 8GB Ram, Intel HD Graphics Card 4000, 1536 MB.
+4. Software Configuration : Keras with Tensorflow Backend, Numpy,OpenCV, Python 2.7, Matplotlib, Scikit-Learn
+5. Architecture Explanation
+      -  5 Convolutional Layers
+      -  3 Fully Connected Layers.
+      -  RELU Configuration (Rectified Linear Units)
+      -  Some Dropout Layers in the fully connected Layers.
+## 
+
+
 
 
