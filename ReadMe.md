@@ -9,8 +9,8 @@ This Website is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav
 # Preliminary Plan
 
 We plan to discover the possibility to:
--Extend existing machine-learning based technique to deep-learning based technique
--Implement a deep-learning based model for medical image classification
+- Extend existing machine-learning based technique to deep-learning based technique
+- Implement a deep-learning based model for medical image classification
 
 After we confirm it is feasible to implement such neural network:
 -Build a Convolutional Deep Neural Networks (CNN) to classify medical images
@@ -32,9 +32,9 @@ After those literature research mentioned above, we prove the possibility to con
 
 Our project is now focusing on using the deep learning techniques to test on different tasks (datasets):
 
--First, we did our phrase one on the breast cancer image classification task.
+- First, we did our phrase one on the breast cancer image classification task.
  
--Second, we did our phrase two on malaria disease detection task.
+- Second, we did our phrase two on malaria disease detection task.
 
 
 
