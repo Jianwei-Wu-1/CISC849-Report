@@ -94,8 +94,70 @@ A little bit more computational time but still less than the conventional VGGnet
       -  3 Fully Connected Layers.
       -  RELU Configuration (Rectified Linear Units)
       -  Some Dropout Layers in the fully connected Layers.
-## 
+## Phase 2 Results
 
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/1.png)
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/2.png)
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/3.png)
 
+## Analysis
+ Precision - Proportion of Positive Identifications that are correct.
+ Recall -  Proportion of Positive Identifications that are correct.
+ F1 Score - Harmonic Average Score of Precision and Recall.
+  
+We are mainly interested in Precision as it helps identify the number of identifications that our  model classified correctly.
+ For 10 Epochs - 90 % of the classifications are correct.
+ For 20 Epochs - 95 % of the classifications are correct.
+ For 50 Epochs  - 97 % of the classifications are correct.   
 
+## Conclusion
+
+* We can easily train a model that can classify results as positive and negative with more than 90% Accuracy 
+* Potential Prototype to be used in the detection and treatment of Malaria.
+* Deep Learning and Neural Networks can be used to significantly improve the way we detect Malaria.
+* With further Optimization, it can be  much faster than the existing Blood Smear Test used to detect Malaria.
+
+## Limitations
+
+1. Can only classify medical images.
+2. Requires a significant amount of data and computational power.
+3. Requires Keras with Tensorflow Backend which is a dependency. We can build a model with Keras Alone.
+4. From the above point, version updates can break the code. 
+
+## Future works
+Consider Hardware configurations before developing Convolutional Neural Networks.
+Introduce Reinforcement Learning, where the Neural Network can learn itself and improve the accuracy
+Increase the Accuracy further (More than 99%) as we do not want even a small proportion of classifications to be wrong as we are dealing with sensitive data.
+Explore other libraries apart from Keras and Tensorflow.
+Try to run out model on the cloud(ie: Amazon Sage Maker, Google Cloud, Databricks, IBM Watson) eliminating the need to have access to powerful machines.
+Improve Data Visualization and Explore more Data Visualization Techniques(ie: Explore Tableau, Chartboost, Seaborn).
+Extend this method to other diseases (ie: Tuberculosis)
+
+## References
+
+Imagenet Classification with Deep Convolutional Neural Networks by Alex Krizhvesky, Ilya Sutskever, Geoffrey.E.Hinton
+Comparison of Convolutional Neural Networks for Food Image Classification - Gozde Ozsert Yigit
+The History began from Alexnet : A comprehensive survey on Deep Learning  Approaches -  Vijayan.K.Asari,Zahangir Alom.
+Coursera (Deep Learning.ai Specialization by Andrew Ng)
+   -       Neural Networks and Deep Learning.
+   -       Improving Deep Neural Networks : Hyperparameter turing, Regularization and Optimization.
+   -        Convolutional Neural Networks.
+
+Dataset Used: Malarial Dataset from NIH(National Institute of Health Sciences).       
+https://machinethink.net/blog/convolutional-neural-networks-on-the-iphone-with-vggnet/
+Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014), published at ICLR 2015*.
+Deng, Jia, et al. "Imagenet: A large-scale hierarchical image database." 2009 IEEE conference on computer vision and pattern recognition. Ieee, 2009.*
+Chollet, François. "Xception: Deep learning with depthwise separable convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.*
+https://m.blog.naver.com/PostView.nhn?blogId=laonple&logNo=220738560542&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks
+Yassin, Nisreen IR, et al. "Machine learning techniques for breast cancer computer aided diagnosis using different image modalities: A systematic review." Computer methods and programs in biomedicine 156 (2018): 25-45.
+
+## What should be better?
+* Start from a remote server or a more powerful machine.
+
+* Implement our solution with version control.
+
+* Implement our solution with Microservices.
+
+* Try to implement streaming tools like Kafka and Storm.
 
