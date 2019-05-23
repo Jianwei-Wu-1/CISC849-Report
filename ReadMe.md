@@ -52,28 +52,25 @@ Tensorflow-Keras (2.2.4-tf), python 3.4.3, numpy, matplot
 Our goal is to show if a patient has symptom of breast cancer (benign or malignant)
 
 ## VGGnet
-[Link](url) and ![Image](https://jianwei-wu-1.github.io/CISC849_Report/p1.png)
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/p1.png)
 
 * 21 layers
 * 2-3 convolutional layers are followed by a pooling layer
 * The end is fully-connected layers
 
 ## Our Neural Network Structure 
-[Link](url) and ![Image](https://jianwei-wu-1.github.io/CISC849_Report/nn.png)
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/nn.png)
 
 * Our Structure is similar to the VGGnet*.
 * Instead of using sets of 3 conv layers like conventional VGG, we increase the number of layers for each time.
 * We also extend the idea of “depthwise separable convolutions*.
 
+## Updated Experimental Results
+* Conventional VGGNet:
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/old.png)
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/old1.png)
+* Our Neural Network:
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/new.png)
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/new1.png)
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jianwei-Wu-1/CISC849_Report/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
