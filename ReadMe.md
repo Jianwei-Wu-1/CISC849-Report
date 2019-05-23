@@ -65,6 +65,9 @@ Our goal is to show if a patient has symptom of breast cancer (benign or maligna
 * Instead of using sets of 3 conv layers like conventional VGG, we increase the number of layers for each time.
 * We also extend the idea of “depthwise separable convolutions*.
 
+Inspired by the middle result:
+![Image](https://jianwei-wu-1.github.io/CISC849_Report/inp.png)
+
 ## Updated Experimental Results
 * Conventional VGGNet:
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/old.png)
@@ -72,5 +75,14 @@ Our goal is to show if a patient has symptom of breast cancer (benign or maligna
 * Our Neural Network:
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/new.png)
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/new1.png)
+
+## Phrase one conclusion:
+Using “depthwise separable convolution” is more efficient than conventional VGGnet.
+Also, it can outperform the conventional VGGnet.
+The change of activation function to “selu” helps us to achieve even better accuracy.
+Reduce likelihood of vanishing gradient(i.e. “dying ReLU”).
+Better fit to our dataset.
+A little bit more computational time but still less than the conventional VGGnet.
+
 
 
