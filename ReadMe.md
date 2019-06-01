@@ -1,6 +1,7 @@
 ## Welcome to Jianwei Wu and Vignesh Raghav's CISC849 Final Report
 
-This Website is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav 
+This Website is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav
+For further questions/comments contact us at: wjwcis@udel.edu or vraghav@udel.edu
 
 # Classification of Medical Images by Using Deep Learning Techniques
 ## Breast Cancer Classification
@@ -77,7 +78,7 @@ Inspired by the middle result:
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/new1.png)
 (Jianwei Wu's Machine)
 
-## Phrase one conclusion:
+## Phase one conclusion:
 Using “depthwise separable convolution” is more efficient than conventional VGGnet.
 Also, it can outperform the conventional VGGnet.
 The change of activation function to “selu” helps us to achieve even better accuracy.
@@ -126,7 +127,7 @@ We are mainly interested in Precision as it helps identify the number of identif
 3. Requires Keras with Tensorflow Backend which is a dependency. We can build a model with Keras Alone.
 4. From the above point, version updates can break the code. 
 
-## Future works
+## Future work
 Consider Hardware configurations before developing Convolutional Neural Networks.
 Introduce Reinforcement Learning, where the Neural Network can learn itself and improve the accuracy
 Increase the Accuracy further (More than 99%) as we do not want even a small proportion of classifications to be wrong as we are dealing with sensitive data.
