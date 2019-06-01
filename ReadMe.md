@@ -1,6 +1,7 @@
 ## Welcome to Jianwei Wu and Vignesh Raghav's CISC849 Final Report
 
-This Website is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav
+This Website is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav,
+
 For further questions/comments contact us at: wjwcis@udel.edu or vraghav@udel.edu
 
 # Classification of Medical Images by Using Deep Learning Techniques
@@ -78,7 +79,7 @@ Inspired by the middle result:
 ![Image](https://jianwei-wu-1.github.io/CISC849_Report/new1.png)
 (Jianwei Wu's Machine)
 
-## Phase one conclusion:
+## Phase 1 conclusion:
 Using “depthwise separable convolution” is more efficient than conventional VGGnet.
 Also, it can outperform the conventional VGGnet.
 The change of activation function to “selu” helps us to achieve even better accuracy.
