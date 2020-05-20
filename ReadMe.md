@@ -52,29 +52,29 @@ Tensorflow-Keras (2.2.4-tf), python 3.4.3, numpy, matplot
 Our goal is to show if a patient has symptom of breast cancer (benign or malignant)
 
 ## VGGnet
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/p1.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/p1.png)
 
 * 21 layers
 * 2-3 convolutional layers are followed by a pooling layer
 * The end is fully-connected layers
 
 ## Our Neural Network Structure 
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/nn.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/nn.png)
 
 * Our Structure is similar to the VGGnet*.
 * Instead of using sets of 3 conv layers like conventional VGG, we increase the number of layers for each time.
 * We also extend the idea of “depthwise separable convolutions*.
 
 Inspired by the middle result:
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/inp.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/inp.png)
 
 ## Updated Experimental Results
 * Conventional VGGNet:
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/old.png)
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/old1.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/old.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/old1.png)
 * Our Neural Network:
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/new.png)
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/new1.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/new.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/new1.png)
 (Jianwei Wu's Machine)
 
 ## Phase 1 conclusion:
@@ -97,9 +97,9 @@ A little bit more computational time but still less than the conventional VGGnet
       -  Some Dropout Layers in the fully connected Layers.
 ## Phase 2 Results
 
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/1.png)
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/2.png)
-![Image](https://jianwei-wu-1.github.io/CISC849_Report/3.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/1.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/2.png)
+![Image](https://jianwei-wu-1.github.io/CISC849-Report/3.png)
 (Vignesh Raghav's machine)
 
 ## Analysis
