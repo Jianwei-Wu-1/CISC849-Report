@@ -1,8 +1,6 @@
-## Welcome to Jianwei Wu and Vignesh Raghav's CISC849 Final Report
+## Welcome to CISC849 Final Report Site for Jianwei Wu
 
-This Website is for CISC849 Spring 2019 by Team 3: Jianwei Wu and Vignesh Raghav,
-
-For further questions/comments contact us at: wjwcis@udel.edu or vraghav@udel.edu
+For further questions/comments contact us at: wjwcis@udel.edu
 
 # Classification of Medical Images by Using Deep Learning Techniques
 ## Breast Cancer Classification
