@@ -6,7 +6,7 @@ For further questions/comments contact us at: wjwcis@udel.edu
 ## Breast Cancer Classification
 ### Malarial Cell Classification
 
-## Preliminary Plan 1
+## Preliminary Plan 1-1
 
 We plan to discover the possibility to:
 * Extend existing machine-learning based technique to deep-learning based technique
